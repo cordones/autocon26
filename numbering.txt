@@ -1,0 +1,107 @@
+
+==
+basic definitions
+
+pod
+ a set of 32 routers, each with 32 ports
+ 16 leaf routers and 16 spine routers
+
+plane
+ a set of 16 routers, each with 32 ports (16 in use)
+
+this build
+ 4 pods and 4 planes, 192 routers in all
+  4 pods x 32 routers = 128
+  4 planes x 16 routers = 64
+
+counting
+ all router identifiers, interfaces, and addresses are counted
+ starting from 1, rather than 0
+
+padding
+ when calculating identifiers, all single character numbers are
+ padded with a "0" to create a two character string (1 -> 01)
+
+==
+management network
+10.99.0.0/16
+3fff:99:99::/48
+
+
+==
+start numbering at 1 rather than 0
+
+==
+router numbers
+
+leaf router
+le-[pod number][leaf number]
+le-XXYY
+pods are 1-32
+leaf router numbers are 1-16
+
+spine router
+sp-[pod number][spine number]
+sp-XXYY
+spine router numbers are 33-48
+
+host (to represent workloads)
+wl-[pod number][workload number]
+workloads device numbers start at 65
+
+fabric/plane router
+fa-[fabric number][router number]
+fa-XXYY
+fabric router numbers start with 1
+
+==
+ip addresses
+
+pod internal connections
+ethernet port on spine matches router number of leaf
+3fff:1:[spine router number]:[leaf number]::[local device number]/64
+
+pod tofabric connections
+spine router connects to fabric router of the pod number
+3fff:2:[fabric router number]:[spine router number]::[local device number]/64
+
+workload connections
+3fff:3:[leaf router number]:[interface number]::[local device number]/64
+
+pod loopback interface
+10.10.[pod].[local device number]/32
+3fff:10:10:[local device number]::[local device number]/128
+
+fabric loopback interface
+10.11.[plane]:[local device number]/32
+3fff:11:11:[local device number]::[local device number]/128
+
+==
+as numbers
+stage 0/fabric  65001.[router]0
+stage 1/spine   65002.[pod]000
+stage 2/leaf    65003.[router]0
+
+==
+yaml file change list for pod
+
+XX-leaf to YY-leaf
+XX-spine to YY-spine
+le-XX to le-YY
+podXX to podYY
+sp-XX to sp-YY
+
+fa-..XX to fa-..YY
+probably best to do this with column replace
+
+==
+router configuration change list for pod
+
+hostname
+interface descriptions
+interface ipv6 addresses
+loopback ipv4 address
+bgp as number
+bgp neighbors
+
+
