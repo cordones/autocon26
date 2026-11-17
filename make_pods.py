@@ -13,8 +13,8 @@ Pod output matches the bind paths in templates/pod/pod-template.yaml
   pods/pod01/le0101.conf ... pods/pod01/sp0148.conf       (32 files per pod)
   planes/plane01/fa0101.conf ... planes/plane01/fa0116.conf (16 per plane)
 
-Placeholders in the templates are filled in on hostname, description and
-address lines only (everything else is copied as-is):
+Placeholders in the templates are filled in on hostname, description, address
+and IS-IS net lines only (everything else is copied as-is):
   pod templates
     tt  pod number
     qq  this router's number (leaf 01-16, spine 33-48)
@@ -53,7 +53,7 @@ PLANE_ROUTER_NUMBERS = range(1, 17)  # 1-16
 
 PLACEHOLDER = re.compile(r"tt|qq|pp|s[1-4]")
 IPV4_ADDRESS = re.compile(r"^\s*ip address ")
-FILLED_LINE = re.compile(r"^\s*(hostname|description|ip address|ipv6 address) ")
+FILLED_LINE = re.compile(r"^\s*(hostname|description|ip address|ipv6 address|net) ")
 
 
 def pad(n: int) -> str:
