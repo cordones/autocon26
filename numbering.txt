@@ -35,23 +35,23 @@ start numbering at 1 rather than 0
 router numbers
 
 leaf router
-le-[pod number][leaf number]
-le-XXYY
+le[pod number][leaf number]
+leXXYY
 pods are 1-32
 leaf router numbers are 1-16
 
 spine router
-sp-[pod number][spine number]
-sp-XXYY
+sp[pod number][spine number]
+spXXYY
 spine router numbers are 33-48
 
 host (to represent workloads)
-wl-[pod number][workload number]
+wl[pod number][workload number]
 workloads device numbers start at 65
 
 fabric/plane router
-fa-[fabric number][router number]
-fa-XXYY
+fa[fabric number][router number]
+faXXYY
 fabric router numbers start with 1
 
 ==
@@ -87,11 +87,11 @@ yaml file change list for pod
 
 XX-leaf to YY-leaf
 XX-spine to YY-spine
-le-XX to le-YY
+leXX to leYY
 podXX to podYY
-sp-XX to sp-YY
+spXX to spYY
 
-fa-..XX to fa-..YY
+fa..XX to fa..YY
 probably best to do this with column replace
 
 ==
