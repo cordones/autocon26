@@ -1,0 +1,8 @@
+# containerlab lab directories created on deploy (lab/clab-<name>/)
+clab-*/
+# topology backups containerlab writes next to the file (.fabric.clab.yml.bak)
+*.clab.yml.bak
+
+# Python bytecode
+__pycache__/
+*.pyc
