@@ -6,3 +6,6 @@ clab-*/
 # Python bytecode
 __pycache__/
 *.pyc
+
+# containerlab inspect snapshots (change on every redeploy)
+butterfly-topo.json
