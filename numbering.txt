@@ -37,7 +37,7 @@ router numbers
 leaf router
 le[pod number][leaf number]
 leXXYY
-pods are 1-32
+pods are 1-4
 leaf router numbers are 1-16
 
 spine router
@@ -47,7 +47,7 @@ spine router numbers are 33-48
 
 host (to represent workloads)
 wl[pod number][workload number]
-workloads device numbers start at 65
+workload device numbers start at 65
 
 fabric/plane router
 fa[fabric number][router number]
@@ -61,7 +61,7 @@ pod internal connections
 ethernet port on spine matches router number of leaf
 3fff:1:[spine router number]:[leaf number]::[local device number]/64
 
-pod tofabric connections
+pod to fabric connections
 spine router connects to fabric router of the pod number
 3fff:2:[fabric router number]:[spine router number]::[local device number]/64
 
@@ -73,7 +73,7 @@ pod loopback interface
 3fff:10:10:[local device number]::[local device number]/128
 
 fabric loopback interface
-10.11.[plane]:[local device number]/32
+10.11.[plane].[local device number]/32
 3fff:11:11:[local device number]::[local device number]/128
 
 ==
