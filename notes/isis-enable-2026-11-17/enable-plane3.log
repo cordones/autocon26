@@ -1,0 +1,81 @@
+[group 1/8] sp0141, sp0241, sp0341, sp0441 (waited 5s)
+    sp0141: ok
+    sp0241: ok
+    sp0341: ok
+    sp0441: ok
+[group 2/8] sp0142, sp0242, sp0342, sp0442 (waited 5s)
+    sp0142: ok
+    sp0242: ok
+    sp0342: ok
+    sp0442: ok
+[group 3/8] sp0143, sp0243, sp0343, sp0443 (waited 5s)
+    sp0143: ok
+    sp0243: ok
+    sp0343: ok
+    sp0443: ok
+[group 4/8] sp0144, sp0244, sp0344, sp0444 (waited 5s)
+    sp0144: ok
+    sp0244: ok
+    sp0344: ok
+    sp0444: ok
+[group 5/8] fa0301, fa0302, fa0303, fa0304 (waited 5s)
+    fa0301: ok
+    fa0302: ok
+    fa0303: ok
+    fa0304: ok
+    waiting: cpu 28% (max 20%), load 2.13 (max 4.00)
+[group 6/8] fa0305, fa0306, fa0307, fa0308 (waited 10s)
+    fa0305: ok
+    fa0306: ok
+    fa0307: ok
+    fa0308: ok
+    waiting: cpu 32% (max 20%), load 23.09 (max 4.00)
+    waiting: cpu 15% (max 20%), load 21.24 (max 4.00)
+    waiting: cpu 12% (max 20%), load 19.54 (max 4.00)
+    waiting: cpu 12% (max 20%), load 17.98 (max 4.00)
+    waiting: cpu 12% (max 20%), load 16.54 (max 4.00)
+    waiting: cpu 12% (max 20%), load 15.45 (max 4.00)
+    waiting: cpu 16% (max 20%), load 14.22 (max 4.00)
+    waiting: cpu 11% (max 20%), load 13.24 (max 4.00)
+    waiting: cpu 12% (max 20%), load 12.26 (max 4.00)
+    waiting: cpu 14% (max 20%), load 11.27 (max 4.00)
+    waiting: cpu 13% (max 20%), load 11.97 (max 4.00)
+    waiting: cpu 15% (max 20%), load 30.07 (max 4.00)
+    waiting: cpu 16% (max 20%), load 27.67 (max 4.00)
+    waiting: cpu 11% (max 20%), load 25.45 (max 4.00)
+    waiting: cpu 16% (max 20%), load 23.41 (max 4.00)
+    waiting: cpu 20% (max 20%), load 21.86 (max 4.00)
+    waiting: cpu 16% (max 20%), load 20.19 (max 4.00)
+    waiting: cpu 17% (max 20%), load 18.57 (max 4.00)
+    waiting: cpu 14% (max 20%), load 17.08 (max 4.00)
+    waiting: cpu 15% (max 20%), load 15.71 (max 4.00)
+    waiting: cpu 15% (max 20%), load 14.46 (max 4.00)
+    waiting: cpu 15% (max 20%), load 13.30 (max 4.00)
+    waiting: cpu 11% (max 20%), load 12.39 (max 4.00)
+    waiting: cpu 11% (max 20%), load 11.56 (max 4.00)
+    waiting: cpu 11% (max 20%), load 10.71 (max 4.00)
+    waiting: cpu 11% (max 20%), load 9.86 (max 4.00)
+    waiting: cpu 20% (max 20%), load 9.15 (max 4.00)
+    waiting: cpu 28% (max 20%), load 8.49 (max 4.00)
+    waiting: cpu 16% (max 20%), load 7.97 (max 4.00)
+    waiting: cpu 14% (max 20%), load 7.33 (max 4.00)
+    waiting: cpu 14% (max 20%), load 6.75 (max 4.00)
+    waiting: cpu 13% (max 20%), load 6.29 (max 4.00)
+    waiting: cpu 13% (max 20%), load 5.78 (max 4.00)
+    waiting: cpu 12% (max 20%), load 5.40 (max 4.00)
+    waiting: cpu 12% (max 20%), load 4.97 (max 4.00)
+    waiting: cpu 13% (max 20%), load 4.73 (max 4.00)
+    waiting: cpu 11% (max 20%), load 4.35 (max 4.00)
+    waiting: cpu 17% (max 20%), load 4.00 (max 4.00)
+[group 7/8] fa0309, fa0310, fa0311, fa0312 (waited 195s)
+    fa0309: ok
+    fa0310: ok
+    fa0311: ok
+    fa0312: ok
+    waiting: cpu 38% (max 20%), load 3.46 (max 4.00)
+[group 8/8] fa0313, fa0314, fa0315, fa0316 (waited 10s)
+    fa0313: ok
+    fa0314: ok
+    fa0315: ok
+    fa0316: ok
+plane 03: IS-IS enabled on 32/32 routers in 254s

@@ -1,0 +1,51 @@
+t,phase,cpu_pct,load1,warn
+5,enabling,55.9,1.13,
+10,enabling,58.3,1.60,
+15,enabling,56.6,2.20,
+20,enabling,22.4,2.42,
+25,enabling,25.0,2.31,
+30,enabling,19.6,2.12,
+35,enabling,19.7,2.11,
+40,enabling,12.3,1.94,
+45,enabling,19.7,2.11,
+50,enabling,39.2,2.02,
+55,enabling,20.1,1.86,
+60,enabling,40.9,1.71,
+65,enabling,20.3,1.65,
+70,enabling,15.0,1.52,
+75,enabling,38.0,16.37,load 16.37 >= 6.0
+80,enabling,22.1,15.06,load 15.06 >= 6.0
+85,enabling,13.2,14.01,load 14.01 >= 6.0
+90,enabling,11.0,12.89,load 12.89 >= 6.0
+95,enabling,10.6,12.02,load 12.02 >= 6.0
+100,enabling,10.1,11.14,load 11.14 >= 6.0
+105,enabling,10.5,10.24,load 10.24 >= 6.0
+110,enabling,10.4,9.42,load 9.42 >= 6.0
+115,enabling,12.3,8.67,load 8.67 >= 6.0
+120,enabling,10.5,8.13,load 8.13 >= 6.0
+125,enabling,10.5,7.56,load 7.56 >= 6.0
+130,enabling,9.8,7.04,load 7.04 >= 6.0
+135,enabling,10.1,6.47,load 6.47 >= 6.0
+140,enabling,10.2,5.95,
+145,enabling,10.5,5.48,
+150,enabling,10.7,5.04,
+155,enabling,10.0,4.63,
+160,enabling,10.1,4.26,
+165,after,53.2,3.92,
+170,after,29.1,3.61,
+175,after,15.1,3.32,
+180,after,11.2,3.05,
+185,after,12.1,2.81,
+190,after,14.3,2.58,
+195,after,14.5,2.46,
+200,after,17.2,2.26,
+205,after,14.6,2.08,
+210,after,16.6,1.91,
+215,after,17.4,1.76,
+220,after,15.2,1.62,
+225,after,11.5,1.49,
+230,after,14.4,1.37,
+235,after,14.2,1.42,
+240,after,14.4,1.46,
+245,after,13.9,1.43,
+250,after,10.6,1.39,

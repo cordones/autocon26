@@ -1,0 +1,60 @@
+[group 1/8] sp0137, sp0237, sp0337, sp0437 (waited 5s)
+    sp0137: ok
+    sp0237: ok
+    sp0337: ok
+    sp0437: ok
+[group 2/8] sp0138, sp0238, sp0338, sp0438 (waited 5s)
+    sp0138: ok
+    sp0238: ok
+    sp0338: ok
+    sp0438: ok
+[group 3/8] sp0139, sp0239, sp0339, sp0439 (waited 5s)
+    sp0139: ok
+    sp0239: ok
+    sp0339: ok
+    sp0439: ok
+[group 4/8] sp0140, sp0240, sp0340, sp0440 (waited 5s)
+    sp0140: ok
+    sp0240: ok
+    sp0340: ok
+    sp0440: ok
+[group 5/8] fa0201, fa0202, fa0203, fa0204 (waited 5s)
+    fa0201: ok
+    fa0202: ok
+    fa0203: ok
+    fa0204: ok
+    waiting: cpu 21% (max 20%), load 1.86 (max 4.00)
+[group 6/8] fa0205, fa0206, fa0207, fa0208 (waited 10s)
+    fa0205: ok
+    fa0206: ok
+    fa0207: ok
+    fa0208: ok
+    waiting: cpu 22% (max 20%), load 1.65 (max 4.00)
+[group 7/8] fa0209, fa0210, fa0211, fa0212 (waited 10s)
+    fa0209: ok
+    fa0210: ok
+    fa0211: ok
+    fa0212: ok
+    waiting: cpu 26% (max 20%), load 15.06 (max 4.00)
+    waiting: cpu 13% (max 20%), load 14.01 (max 4.00)
+    waiting: cpu 11% (max 20%), load 12.89 (max 4.00)
+    waiting: cpu 10% (max 20%), load 12.02 (max 4.00)
+    waiting: cpu 11% (max 20%), load 11.14 (max 4.00)
+    waiting: cpu 10% (max 20%), load 10.24 (max 4.00)
+    waiting: cpu 11% (max 20%), load 9.42 (max 4.00)
+    waiting: cpu 10% (max 20%), load 8.67 (max 4.00)
+    waiting: cpu 13% (max 20%), load 8.13 (max 4.00)
+    waiting: cpu 10% (max 20%), load 7.56 (max 4.00)
+    waiting: cpu 10% (max 20%), load 7.04 (max 4.00)
+    waiting: cpu 10% (max 20%), load 6.47 (max 4.00)
+    waiting: cpu 10% (max 20%), load 5.95 (max 4.00)
+    waiting: cpu 10% (max 20%), load 5.48 (max 4.00)
+    waiting: cpu 11% (max 20%), load 5.04 (max 4.00)
+    waiting: cpu 11% (max 20%), load 4.63 (max 4.00)
+    waiting: cpu 10% (max 20%), load 4.26 (max 4.00)
+[group 8/8] fa0213, fa0214, fa0215, fa0216 (waited 90s)
+    fa0213: ok
+    fa0214: ok
+    fa0215: ok
+    fa0216: ok
+plane 02: IS-IS enabled on 32/32 routers in 148s
