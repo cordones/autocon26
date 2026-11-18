@@ -1,0 +1,73 @@
+t,phase,cpu_pct,load1,warn
+5,enabling,57.3,1.48,
+10,enabling,57.0,2.24,
+15,enabling,57.6,2.71,
+20,enabling,39.4,2.57,
+25,enabling,25.7,2.44,
+30,enabling,14.4,2.57,
+35,enabling,16.8,2.44,
+40,enabling,22.9,2.25,
+45,enabling,23.6,2.15,
+50,enabling,44.9,2.13,
+55,enabling,27.3,2.04,
+60,enabling,18.7,9.09,load 9.09 >= 6.0
+65,enabling,44.4,23.09,load 23.09 >= 6.0
+70,enabling,25.2,21.24,load 21.24 >= 6.0
+75,enabling,14.5,19.54,load 19.54 >= 6.0
+80,enabling,13.5,17.98,load 17.98 >= 6.0
+85,enabling,11.7,16.54,load 16.54 >= 6.0
+90,enabling,11.6,15.45,load 15.45 >= 6.0
+95,enabling,15.8,14.22,load 14.22 >= 6.0
+100,enabling,11.2,13.24,load 13.24 >= 6.0
+105,enabling,11.2,12.26,load 12.26 >= 6.0
+110,enabling,14.5,11.27,load 11.27 >= 6.0
+115,enabling,13.2,11.97,load 11.97 >= 6.0
+120,enabling,13.6,30.07,load 30.07 >= 6.0
+125,enabling,15.1,27.67,load 27.67 >= 6.0
+130,enabling,14.1,25.45,load 25.45 >= 6.0
+135,enabling,15.4,23.41,load 23.41 >= 6.0
+140,enabling,17.5,21.86,load 21.86 >= 6.0
+145,enabling,18.9,20.19,load 20.19 >= 6.0
+150,enabling,14.7,18.57,load 18.57 >= 6.0
+155,enabling,16.9,17.08,load 17.08 >= 6.0
+160,enabling,15.5,15.71,load 15.71 >= 6.0
+165,enabling,13.3,14.46,load 14.46 >= 6.0
+170,enabling,13.9,13.30,load 13.30 >= 6.0
+175,enabling,14.2,12.39,load 12.39 >= 6.0
+180,enabling,10.9,11.56,load 11.56 >= 6.0
+185,enabling,11.5,10.71,load 10.71 >= 6.0
+190,enabling,11.1,9.86,load 9.86 >= 6.0
+195,enabling,12.6,9.15,load 9.15 >= 6.0
+200,enabling,30.9,8.49,load 8.49 >= 6.0
+205,enabling,19.3,7.97,load 7.97 >= 6.0
+210,enabling,13.8,7.33,load 7.33 >= 6.0
+215,enabling,14.2,6.75,load 6.75 >= 6.0
+220,enabling,13.4,6.29,load 6.29 >= 6.0
+225,enabling,12.9,5.78,
+230,enabling,12.0,5.40,
+235,enabling,12.4,4.97,
+240,enabling,12.1,4.73,
+245,enabling,12.0,4.35,
+250,enabling,15.9,4.00,
+255,enabling,13.0,3.76,
+260,enabling,59.2,3.46,
+265,enabling,35.6,3.42,
+270,enabling,27.3,17.80,load 17.80 >= 6.0
+275,after,53.6,27.19,load 27.19 >= 6.0
+280,after,34.3,25.01,load 25.01 >= 6.0
+285,after,13.2,23.01,load 23.01 >= 6.0
+290,after,13.1,21.17,load 21.17 >= 6.0
+295,after,15.9,19.55,load 19.55 >= 6.0
+300,after,13.0,18.14,load 18.14 >= 6.0
+305,after,18.1,16.69,load 16.69 >= 6.0
+310,after,11.9,15.35,load 15.35 >= 6.0
+315,after,12.6,14.12,load 14.12 >= 6.0
+320,after,17.9,12.99,load 12.99 >= 6.0
+325,after,15.6,11.95,load 11.95 >= 6.0
+330,after,15.4,11.00,load 11.00 >= 6.0
+335,after,12.4,10.11,load 10.11 >= 6.0
+340,after,11.9,9.30,load 9.30 >= 6.0
+345,after,12.3,8.56,load 8.56 >= 6.0
+350,after,12.6,7.87,load 7.87 >= 6.0
+355,after,12.6,7.40,load 7.40 >= 6.0
+360,after,12.2,6.81,load 6.81 >= 6.0
